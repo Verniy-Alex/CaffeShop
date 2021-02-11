@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .modal{
+            display: none;
+        }
+    </style>
+
+    <title>CoffeShop</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-mobile-btn" id="openMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav-content" id="mobileMenu">
+            <div class="container">
+                <div class="header-logo"></div>
+                    <ul class="nav-list">
+                    <a href="#home">
+                        <li class="nav-items">Главная</li>
+                        </a>
+                        <a href="#about-bottom">
+                            <li class="nav-items">О нас</li>
+                        </a>
+                        <a href="menu.html" target="_blank">
+                            <li class="nav-items">Меню</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav-items">Галерея</li>
+                        </a>
+                        <a href="#contacts">
+                            <li class="nav-items">Контакты</li>
+                        </a>
+                    <div class="social-icons">
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            </nav>
+    </header>
+
+    <!-- Top bg -->
+    <section class="top-bg" id="home">
+        <div class="container">
+            <div class="top-bg-content">
+                <h1 class="top-bg-title">
+                    Кафе для тебя<br>
+                        и твоих близких
+                </h1>
+                <p class="top-bg-subtitle">
+                    Твой кофе уже ждёт тебя
+                </p>
+                <p class="top-bg-subtitle">
+                    Всегда свежий и ароматный
+                </p>
+            </div>
+            <div class="top-bg-icon">
+                <a href="#about">
+                    <img src="img/mouse.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content-box">
+                <div class="about-text-box">
+                    <h2 class="about-title">
+                        О НАС:
+                    </h2>
+                    <p class="about-subtitle">Мы создали для вас уютную атмосферу для отдыха или работы.
+                        <br>вы можете вкусно позавтракать, провести бизнес-ланч, а вечером встретиться с друзьями
+                         и поиграть в настольные игры. У нас всегда теплая и дружелюбная обстановка. Здесь каждый найдет свое блюдо.
+                          Для маленьких гурманов у нас есть игровая, в которой можно отлично провести время.
+                           Мы рады Вам и Вашим близким, приходите!
+                    </p>
+                </div>
+                <div class="about-img-box">
+                    <img src="img/img2.jpeg" class="about-img" alt="about-us-img">
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom-page" id="about-bottom">
+            <div class="about-bottom-page-box">
+                <div class="about-bottom-title">
+                    Уютное пространство в центре города
+                </div>
+                <p class="about-bottom-text">
+                    Наши партнеры с <span>Loft Design</span> помогли нам <br>
+                     создать для вас красочный и удобный интерьер,<br>
+                      для самого комфортного пребывания.
+                </p>
+                <div class="about-bottom-button">
+                    <a href="#">
+                        <button type="button" class="about-btn">Смотреть галерею</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu page -->
+    <section class="menu-page">
+        <div class="container">
+            <main class="menu-content">
+                <div class="menu-images-box">
+                    <img src="img/img3.jpeg" class="menu-images-img" alt="">
+                    <img src="img/002.jpeg" class="menu-images-img" alt="">
+                    <img src="img/img4.jpeg" class="menu-images-img" alt="">
+                    <img src="img/img7.jpeg" class="menu-images-img" alt="">
+                    
+                </div>
+                <div class="menu-text-box">
+                    <p class="menu-page-text">
+                        Попробуйте
+                    </p>
+                    <h2 class="menu-page-title">
+                        Наше меню
+                    </h2>
+                    <p class="menu-page-subtitle">
+                        Прорабатывая меню мы помним про каждое пожелание.<br>
+                         Оно придется по вкусу любому из вашей компании.<br>
+                          Заходите по пути домой или в гости, заказывайте с собой!<br>
+                           Больше не обязательно готовить дома.<br>
+                            Мы рядом, у нас вкусно и полезно.
+                    </p>
+                    <a href="menu.html" target="_blank">
+                        <button type="button" class="menu-btn about-btn">Смотреть меню</button>
+                    </a>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- Callback page -->
+    <section class="callbacl-page">
+        <div class="container">
+            <div class="callback-title">
+                Звоните, пишите<br> бронируйте!
+            </div>
+            <form class="callback-content" action="">
+                <div>
+                    <p>Ваше имя *</p>
+                    <input type="text" id="" class="callback-input">
+                </div>
+                <div>
+                    <p>Телефон *</p>
+                    <input type="text"  id="" class="callback-input">
+                </div>
+                <div>
+                    <p>Ваш e-mail *</p>
+                    <input type="text"  id="" class="callback-input">
+                </div>
+                    <button type="button" id="openModal" class=" callback-btn about-btn">Забронировать</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer-page" id="contacts">
+        <div class="container">
+            <h2 class="footer-title">Контакты</h2>
+            <div class="footer-content">
+                <div class="footer-date">
+                    Ждём вас каждый день с<br>
+                    9:00 до 21:00
+                </div>
+                <div class="footer-number">
+                    
+                    <a href="tel:+380508715956"><i class="fas fa-phone-alt"></i> +380508715956</a>
+                </div>
+                <div class="footer-link">
+                    <a href="mailto:Coffeshop@gmail.com"><i class="far fa-envelope"></i> Coffeshop@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modals -->
+    <div class="modal" id="modalPage">
+        <div class="modal-content">
+            <div class="modal-close-btn" id="closeModal">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-head">
+                Спасибо
+            </div>
+            <div class="modal-body">
+                Мы свяжемся с вами
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
